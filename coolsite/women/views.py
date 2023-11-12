@@ -2,6 +2,7 @@ from django.http import HttpResponse, HttpResponseNotFound
 from django.shortcuts import render, redirect
 
 from .models import *
+import openai
 
 menu = ['О сайте', 'Добавить статью', 'Обратная связь', 'Войти'
                                                         '']
